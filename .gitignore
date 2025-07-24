@@ -3,6 +3,20 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+kaggle.json
+*.pyc
+.env
+data/images/*
+# Dados pesados
+*.npy
+*.pkl
+fashion-dataset/*/*
+fashion-dataset/images/*
+fashion-dataset/*.zip
+.zip
+
+*.jpg
+
 # C extensions
 *.so
 
