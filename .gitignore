@@ -13,7 +13,7 @@ data/images/*
 fashion-dataset/*/*
 fashion-dataset/images/*
 fashion-dataset/*.zip
-.zip
+*.zip
 
 *.jpg
 
