@@ -55,9 +55,17 @@ image-recommender/
 ## 🚀 Executando localmente
 
 ```bash
+python3 -m pip install -r requirements.txt
+python3 -m streamlit run app/app.py
+```
+ou
+```bash
 pip install -r requirements.txt
 streamlit run app/app.py
 ```
+
+## 📷 Exemplo:
+![example_img](example.png)
 
 ---
 

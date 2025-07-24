@@ -26,4 +26,4 @@ if uploaded_file:
     cols = st.columns(5)
     for i, path in enumerate(results[1:]):  # Ignorar a primeira (igual a consulta)
         with cols[i]:
-            st.image(Image.open(path), caption=f"Similar {i+1}", use_container_width=True)
+            st.image(Image.open(path), caption=f"Similar {i+1}", use_container_width=False, width=200)
